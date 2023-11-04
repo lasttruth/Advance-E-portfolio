@@ -1,191 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robin Doirin</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Robin Doirin</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-  <script src="app.js" defer></script>
-</head>
-
-<body>
-  <section id="landing-page">
-    <nav>
-      <figure>
-        <img id="personal-logo" src="./assets/logo.svg" alt="" />
-      </figure>
-      <ul class="nav__link--list">
-        <li class="nav__link">
-          <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">About</a>
-        </li>
-
-        <li class="nav__link">
-          <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
-        </li>
-
-        <li class="nav__link">
-          <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact</a>
-        </li>
-
-        <li class="nav__link click">
-          <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black"><i
-              class="fas fa-adjust"></i></a>
-        </li>
-      </ul>
-    </nav>
-    <header class="header">
-      <div class="header__content">
-        <h1 class="title">Hey</h1>
-        <h1 class="title secondary">I'm Robin</h1>
-        <p class="header__para">
-          I'm a <b class="secondary">Frontend Software Engineer</b> passionate about creating immersive experiences
-          digital experiences and bringing captivating designs to life.
-          <br />
-          Here's a bit more <b class="secondary">about me.</b>
-        </p>
-        <div class="social__list">
-          <a href="https://www.linkedin.com/in/robin-doirin-347677222/" target="_blank" class="social__link click">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/lasttruth" target="_blank" class="social__link click">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="#" class="social__link click">
-            <i class="fas fa-file-pdf"></i>
-          </a>
-        </div>
-      </div>
-    </header>
-    <button class="mail__btn click">
-      <i class="fas fa-envelope"></i>
-    </button>
-    <a href="Projects" class="scroll">
-      <div class="scroll__icon click"></div>
-    </a>
-  </section>
-  <section id="projects">
-    <div class="container">
-      <div class="row">
-        <h1 class="section__title">
-          Here are some of my <span class="secondary">projects</span>
-        </h1>
-        <ul class="project__list">
-          <li class="project">
-            <div class="project__wrapper">
-              <img src="./assets/Frontend Simplified Remix.png" class="project__img" alt="" />
-              <div class="project__wrapper--bg"></div>
-              <div class="project__description">
-                <h3 class="project__description--title">Frontend Simplified Remix Puzzle</h3>
-                <h4 class="project__description--sub-title">
-                  HTML, CSS, JavaScript
-                </h4>
-                <p class="project__description--para">
-                  Not everything here is as it seems, solve this puzzle and find youself...somewhere fun. Uh Beware!!!
-                  oooohhhh SP00KYYY!!!!!!!(seriously this is a small ARG I created have fun)
-                </p>
-                <div class="project__description--links">
-                  <a href="https://github.com/lasttruth/Frontend-Simplified-Remix" target="_blank"
-                    class="project__description--link">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://lasttruth.github.io/Frontend-Simplified-Remix/" target="_blank"
-                    class="project__description--link">
-                    <i class="fas fa-link"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+  <body>
+    <section id="landing-page">
+      <nav>
+        <figure>
+          <img id="personal-logo" src="./assets/logo.svg" alt="" />
+        </figure>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >About</a
+            >
           </li>
-          <li class="project">
-            <div class="project__wrapper">
-              <img src="./assets/E-Commerce Website.png" class="project__img" alt="" />
-              <div class="project__wrapper--bg"></div>
-              <div class="project__description">
-                <h3 class="project__description--title">E-Commerce Site</h3>
-                <h4 class="project__description--sub-title">
-                  HTML, CSS, JavaScript
-                </h4>
-                <p class="project__description--para">
-                  An E-Commerce site made in my bootcamp. Premium stuff going on here. Come check it out!(There is a
-                  secret on this page too!!)
-                </p>
-                <div class="project__description--links">
-                  <a href="https://github.com/lasttruth/E-Commerce-project" target="_blank"
-                    class="project__description--link">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://lasttruth.github.io/E-Commerce-project/" target="_blank"
-                    class="project__description--link">
-                    <i class="fas fa-link"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
           </li>
-          <li class="project">
-            <div class="project__wrapper">
-              <img src="./assets/Treact clone.png" class="project__img" alt="" />
-              <div class="project__wrapper--bg"></div>
-              <div class="project__description">
-                <h3 class="project__description--title">Treact Clone</h3>
-                <h4 class="project__description--sub-title">
-                  HTML, CSS, JavaScript
-                </h4>
-                <p class="project__description--para">
-                  An Clone site made in my bootcamp. Tried to make the best 1 to 1 clone of a Treact site.
-                </p>
-                <div class="project__description--links">
-                  <a href="https://github.com/lasttruth/Final-HTML-CSS-Project" target="_blank"
-                    class="project__description--link">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://lasttruth.github.io/Final-HTML-CSS-Project/" target="_blank"
-                    class="project__description--link">
-                    <i class="fas fa-link"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Contact</a
+            >
+          </li>
+
+          <li class="nav__link click">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              ><i class="fas fa-adjust"></i
+            ></a>
           </li>
         </ul>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container ">
-      <div class="row footer__row">
-
-        <figure>
-          <img class="footer__logo--img" src="./assets/logo.svg" alt="">
-        </figure>
-        <div class="footer__social--list">
-          <a href="" class="footer__social--link
-          liver__hover-effect
-          liver__hover-effect--white">
-            GitHub
-          </a>
-          <a href="" class="footer__social--link
-        liver__hover-effect
-        liver__hover-effect--white">
-            Linkedin
-          </a>
-          <a href="" class="footer__social--link
-      liver__hover-effect
-      liver__hover-effect--white">
-            Resume
-          </a>
-          <a href="" class="footer__social--link
-    liver__hover-effect
-    liver__hover-effect--white">
-            Contact
-          </a>
+      </nav>
+      <header class="header">
+        <div class="header__content">
+          <h1 class="title">Hey</h1>
+          <h1 class="title secondary">I'm Robin</h1>
+          <p class="header__para">
+            I'm a <b class="secondary">Frontend Software Engineer</b> passionate
+            about creating immersive experiences digital experiences and
+            bringing captivating designs to life.
+            <br />
+            Here's a bit more <b class="secondary">about me.</b>
+          </p>
+          <div class="social__list">
+            <a
+              href="https://www.linkedin.com/in/robin-doirin-347677222/"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com/lasttruth"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="social__link click">
+              <i class="fas fa-file-pdf"></i>
+            </a>
+          </div>
         </div>
-        <div class="footer_-copyright">CopyRight © Robin Doirin</div>
+      </header>
+      <button class="mail__btn click">
+        <i class="fas fa-envelope"></i>
+      </button>
+      <a href="Projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="secondary">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/Frontend Simplified Remix.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Frontend Simplified Remix Puzzle
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript
+                  </h4>
+                  <p class="project__description--para">
+                    Not everything here is as it seems, solve this puzzle and
+                    find youself...somewhere fun. Uh Beware!!! oooohhhh
+                    SP00KYYY!!!!!!!(seriously this is a small ARG I created have
+                    fun)
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/lasttruth/Frontend-Simplified-Remix"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://lasttruth.github.io/Frontend-Simplified-Remix/"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/E-Commerce Website.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">E-Commerce Site</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript
+                  </h4>
+                  <p class="project__description--para">
+                    An E-Commerce site made in my bootcamp. Premium stuff going
+                    on here. Come check it out!(There is a secret on this page
+                    too!!)
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/lasttruth/E-Commerce-project"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://lasttruth.github.io/E-Commerce-project/"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/Treact clone.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Treact Clone</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript
+                  </h4>
+                  <p class="project__description--para">
+                    An Clone site made in my bootcamp. Tried to make the best 1
+                    to 1 clone of a Treact site.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/lasttruth/Final-HTML-CSS-Project"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://lasttruth.github.io/Final-HTML-CSS-Project/"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row footer__row">
+          <figure>
+            <img class="footer__logo--img" src="./assets/logo.svg" alt="" />
+          </figure>
+          <div class="footer__social--list">
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              GitHub
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Linkedin
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Resume
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Contact
+            </a>
+          </div>
+          <div class="footer__copyright">CopyRight © Robin Doirin</div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
