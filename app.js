@@ -1,7 +1,17 @@
-// template_r3jmnwd
-// service_uhxbhdw
-// X0sprH3IfwIu2Slsk
+let contrastToggle = false;
 
+
+
+
+function toggleContrast(){
+    contrastToggle = !contrastToggle;
+    if(contrastToggle){
+        document.body.classList += " dark-theme"
+    }
+    else[
+        document.body.classList.remove("dark-theme")
+    ]
+}
 function contact(event) {
   event.preventDefault();
 
